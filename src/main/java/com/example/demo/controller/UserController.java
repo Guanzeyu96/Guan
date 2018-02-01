@@ -59,7 +59,6 @@ public class UserController {
         @RequestMapping("getall")
         @ResponseBody
         public List<User> getAll(){
-        	System.out.println("111");
         	return userService.getAll();
         }
         
