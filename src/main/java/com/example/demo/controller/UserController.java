@@ -59,6 +59,7 @@ public class UserController {
         @RequestMapping("getall")
         @ResponseBody
         public List<User> getAll(){
+        	
         	return userService.getAll();
         }
         
